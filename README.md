@@ -1,22 +1,12 @@
-# model-deploy
+# Chest X-ray Lines/Tubes Classifier
 
-## Examples
+Identifies presence of multiple classes of lines and tubes on chest x-rays (ETT/CVC/NGT), and whether they are malpositioned.
 
-Example model deployments for training/testing/inference on MD.ai are located in the `examples/` folder.
+## Label Classes
 
-## Development
-
-Python 3.7+ required. Initial setup:
-
-```sh
-# Create virtualenv
-virtualenv .venv
-source .venv/bin/activate
-
-# Install deps
-pip install -r requirements.txt
-```
-
----
-
-&copy; 2020 MD.ai, Inc.
++ 0: ETT
++ 1: CVC
++ 2: NGT
++ 3: ETT malpositioned
++ 4: CVC malpositioned
++ 5: NGT malpositioned
